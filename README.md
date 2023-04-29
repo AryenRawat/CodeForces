@@ -38,11 +38,6 @@ int main(){
 }
 */
 
-/*bool hasAlternatingBits( int n ) {
-        long x = ( n^( n >> 1) );
-        return !( x & ( x+1 ) );
-}*/
-
 /*Kadane Algorithm for max subarray
 int maxSubArraySum(int a[], int size){
     int max_so_far = INT_MIN, max_ending_here = 0;
@@ -165,8 +160,9 @@ bool ispar(string x)
 }
 */
 
+
 void sol(){
-    // Solve here
+    //Solve here
     
 }
 
@@ -174,7 +170,7 @@ int main(){
     //Code goes here
     FAST 
     ll t;
-    cin>>t;
+    t=1;
     while(t--){
         sol();
     }
